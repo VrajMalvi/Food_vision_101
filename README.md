@@ -1,4 +1,4 @@
-# Food Vision 101 Project
+# Food Vision 101 Project [Food 101 Data](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101)
 
 ## Overview
 
@@ -12,7 +12,7 @@ In addition to achieving high accuracy, we will explore two key methods to signi
   - Using TensorFlow Datasets to download and explore data
   - Creating preprocessing functions for our data
   - Batching & preparing datasets for modeling (making our datasets run fast)
-  - Creating modeling callbacks
+  - Creating model callbacks
   - Setting up mixed precision training
   - Building a feature extraction model
   - Fine-tuning the feature extraction model
