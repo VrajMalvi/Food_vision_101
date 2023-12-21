@@ -1,10 +1,12 @@
-# Food Vision 101 Project [Food 101 Data](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101)
+# Food Vision 101 Project 
 
 ## Overview
 
 Welcome to the Food Vision 101 project, where we aim to build an advanced image classification model capable of recognizing various food items (101 classes). This project is inspired by the DeepFood paper, and we will leverage the Food101 dataset for our training.
 
 In addition to achieving high accuracy, we will explore two key methods to significantly enhance the training speed: Prefetching and Mixed Precision Training.
+
+[Food 101 Data...](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101)
 
 ## Project Structure
 
@@ -48,6 +50,6 @@ We repeat the process with `EfficientNetB4` to compare the performance of differ
 
 The Food Vision 101 project exemplifies the implementation of advanced techniques in image classification, emphasizing the optimization of speed and accuracy. The utilization of pre-trained models, coupled with fine-tuning strategies, results in robust solutions for food image recognition tasks.
 
-In this project, two base models, namely `EfficientNetB0` from `efficientnet_v2` and `EfficientNetB4` from `efficientnet`, were employed for transfer learning. After fine-tuning the `EfficientNetB0` model, training accuracy of **99.77%** and a test accuracy of **81.10%** were achieved. Similarly, the `EfficientNetB4` model demonstrated atraining accuracy of **99.24%** and a test accuracy of **83.53%**.
+In this project, two base models, namely `EfficientNetB0` from `efficientnet_v2` and `EfficientNetB4` from `efficientnet`, were employed for transfer learning. After fine-tuning the `EfficientNetB0` model, a training accuracy of **99.77%** and test accuracy of **81.10%** were achieved. Similarly, the `EfficientNetB4` model demonstrated a training accuracy of **99.24%** and a test accuracy of **83.53%**.
 
 These outcomes underscore the effectiveness of leveraging powerful pre-trained models, enabling the development of highly accurate classifiers for food images. The fine-tuning process further enhances the models, tailoring them to the specifics of the Food101 dataset. The saved models are poised for future applications, offering a reliable solution for various food image recognition tasks.
